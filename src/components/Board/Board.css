@@ -1,0 +1,49 @@
+.wrapper-target {
+	position: relative;
+}
+
+.target-drop-empty {
+	width: 243px;
+	height: 448px;
+	border-radius: 6px;
+	border: 1px dashed #c4c4c4;
+	position: relative;
+}
+
+.target-drop-items {
+	width: 243px;
+	height: 448px;
+	border-radius: 6px;
+}
+
+.target-drop__block {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	width: 127px;
+}
+
+.block-title {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 17px;
+	text-align: center;
+	color: #5d5fef;
+	margin-top: 12px;
+}
+
+.target-drop__block span {
+	text-align: center;
+	margin-top: 4px;
+}
